@@ -29,28 +29,6 @@ It executes native operating system calls asynchronously in background threads, 
 ## System Requirements
 
 * **Operating System:** Windows 10, Windows 11, Windows Server 2016+ (Linux/macOS supported for cross-platform network commands).
-* **Python Runtime:** Python 3.8 or higher (only required if running from source).
 * **Privileges:** Administrator / Root rights recommended for advanced operations (`sfc`, `dism`, `chkdsk`, DHCP renewal).
 
 ---
-
-## Installation & Running from Source
-
-1. **Clone or Download the Code:** Save `sysx.py` to your local folder.
-2. **Launch Application:**
-   * Open PowerShell or Command Prompt as **Administrator**.
-   * Run the script:
-     ```cmd
-     python sysx.py
-     ```
-     *(Or use `py sysx.py` if `python` path is not explicitly set).*
-
----
-
-## Compiling to Standalone Executable (`.exe`)
-
-To package **SysX** into a portable, single `.exe` file that runs on any machine without installing Python:
-
-1. Install PyInstaller via the Python module manager:
-   ```cmd
-   py -m pip install pyinstaller
